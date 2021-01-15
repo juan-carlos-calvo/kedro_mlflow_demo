@@ -243,6 +243,8 @@ pygments==2.7.4
     #   jupyterlab-pygments
     #   nbconvert
     #   qtconsole
+pymysql==1.0.2
+    # via -r /Users/jccj/mckinsey/meetup/demo/src/requirements.in
 pyparsing==2.4.7
     # via packaging
 pyrsistent==0.17.3
