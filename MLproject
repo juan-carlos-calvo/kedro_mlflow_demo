@@ -1,0 +1,7 @@
+name: kedro_mlflow_demo
+
+conda_env: conda_env.yml
+
+entry_points:
+  main:
+    command: "kedro run"
