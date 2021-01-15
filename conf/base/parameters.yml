@@ -1,14 +1,13 @@
 test_size: 0.2
 random_state: 3
-
-kedro_mlflow:
-  metrics: ["metrics"]
-  params: ["test_size"]
-  artifacts: ["master_table"]
-  tags:
-    demo_version: 1.0
-    model_type: "regressor"
-  models:
-    regressor:
-      name: regressor
-      input: X_train
+# kedro_mlflow:
+#   metrics: ["metrics"]
+#   params: ["test_size"]
+#   artifacts: ["master_table"]
+#   tags:
+#     demo_version: 1.0
+#     model_type: "regressor"
+#   models:
+#     regressor:
+#       name: regressor
+#       input: X_train
